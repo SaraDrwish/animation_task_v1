@@ -2,8 +2,30 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #363337;
+ }
+
+body{
+    position: relative;
+    background-color: rgba(253, 176, 108, 0.882);
 }
+
+nav{
+    background-color: rgb(45, 28, 28);
+    position: fixed;
+    top: 0;
+    z-index: 11;
+    width: 100%;
+}
+
+nav .logo{
+    text-align: left;
+    /* padding: 1% 2%; */
+    font-size: 55px;
+    font-weight: bold;
+    color: burlywood;
+    margin-left: 44px;
+} 
+
 .container{
     width: 66%;
     margin: auto;
@@ -159,7 +181,21 @@
 
 }
 
+/* ------------------------------------------------ */
+footer{
+    background-color: rgb(34, 10, 10);
+    position: fixed;
+    bottom: 0;
+    /* margin: auto; */
+    width: 100%;
 
-
-
-
+}
+footer p {
+    font-size: 22px;
+    text-align: center;
+    /* color: rgb(189, 201, 213); */
+    color: burlywood;
+    font-weight: 700;
+    padding: 11px;
+    text-transform: capitalize;
+}
