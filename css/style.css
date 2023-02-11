@@ -16,16 +16,13 @@ nav{
     z-index: 11;
     width: 100%;
 }
-
 .logo{
     text-align: left;
-    /* padding: 1% 2%; */
     font-size: 55px;
     font-weight: bold;
     color: burlywood;
     margin-left: 44px;
 } 
-
 .container{
     width: 66%;
     margin: auto;
@@ -141,7 +138,6 @@ nav{
     animation-timing-function: linear;
     animation-fill-mode: forwards;
     animation-direction: alternate;
-    /* animation-play-state: paused; */
 } 
 .anmi:nth-child(4){
     color: #135148;
@@ -164,10 +160,8 @@ nav{
     animation-timing-function: linear;
     animation-fill-mode: forwards;
     animation-direction: alternate;
-    /* animation-play-state: paused; */
 }
 .anmi:nth-child(6){
-    /* background-color: #135148 ; */
     color: #135148;
     animation-name: moveright;
     right: 0;
@@ -178,22 +172,17 @@ nav{
     animation-fill-mode: forwards;
     animation-direction: alternate;
     animation-play-state: paused;
-
 }
-
 /* ------------------------------------------------ */
 footer{
     background-color: rgb(34, 10, 10);
     position: fixed;
     bottom: 0;
-    /* margin: auto; */
     width: 100%;
-
 }
 footer p {
     font-size: 22px;
     text-align: center;
-    /* color: rgb(189, 201, 213); */
     color: burlywood;
     font-weight: 700;
     padding: 11px;
