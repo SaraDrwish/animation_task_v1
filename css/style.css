@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #363337;
+}
+.container{
+    width: 66%;
+    margin: auto;
+    height:100vh;
+    position: relative;
+ }
+ .line{
+    background-color: rgb(122, 36, 36);
+    position: absolute;
+    top:55px;
+    left: 200px;
+ }
+ .line:nth-child(1){
+    width: 11px;
+    height: 500px;
+    top:80px;
+    left: 570px;
+ }
+ .line:nth-child(2){
+    width: 11px;
+    height: 500px;
+    top:80px;
+    left:430px;
+ }
+ .line:nth-child(3){
+    width: 580px;
+    height: 11px;
+    top:210px;
+    left: 220px;  
+ }
+ .line:nth-child(4){
+    width: 580px;
+    height: 11px;
+    top: 390px;
+    left: 220px;  
+ }
+.box{
+    width: 100%;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+} 
+.anmi{
+    width: 100px;
+    height: 100px;
+    margin: 11px;
+    border-radius: 30%;
+    -webkit-border-radius: 30%;
+    -moz-border-radius: 30%;
+    -ms-border-radius: 30%;
+    -o-border-radius: 30%;
+    box-shadow: 1px 1px 10px #778da9;
+    cursor: pointer;
+    position: absolute;
+}
+@keyframes moveleft {
+    0%{  left:0;  }
+    100%{ background-color: antiquewhite;  left: 60% ;  }
+}
+@keyframes moveright {
+    0%{   right: 0; }
+    100%{  background-color: rgb(215, 250, 235);   right: 60%; }
+}
+.anmi i{
+    background-color: unset;
+    font-size: 44px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+ }
+.anmi:nth-child(1){
+    color: #5e503f;
+    animation-name: moveleft;
+    left:0 ;
+    /* top: 20px; */
+    bottom: 170px;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+    animation-fill-mode: forwards;
+}
+.anmi:nth-child(2){
+    color: #135148;
+    animation-name: moveright;
+    right: 0;
+    /* top:20px; */
+    bottom: 170px;
+    animation-duration: 2s;
+    animation-delay: 2s;
+    animation-timing-function: linear;
+   /* animation-timing-function: ease-out ; ----------------- defult ---- fast--> slow ------------*/
+    animation-fill-mode: forwards;
+    animation-direction: alternate;
+    animation-play-state:running;
+}
+.anmi:nth-child(3){
+    color: #5e503f;
+    animation-name: moveleft;
+    left:0 ;
+    bottom:0px ; 
+    animation-duration: 2s;
+    animation-delay: 4s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+    animation-direction: alternate;
+    /* animation-play-state: paused; */
+} 
+.anmi:nth-child(4){
+    color: #135148;
+    animation-name: moveright;
+    right: 0;
+    bottom:0px ; 
+    animation-duration: 2s;
+    animation-delay: 6s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+    animation-direction: alternate;
+}
+.anmi:nth-child(5){
+    color: #5e503f;
+    animation-name: moveleft;
+    left:0 ;
+    top:70px;
+    animation-duration: 2s;
+    animation-delay: 8s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+    animation-direction: alternate;
+    /* animation-play-state: paused; */
+}
+.anmi:nth-child(6){
+    /* background-color: #135148 ; */
+    color: #135148;
+    animation-name: moveright;
+    right: 0;
+    top: 70px;
+    animation-duration: 2s;
+    animation-delay: 10s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+    animation-direction: alternate;
+    animation-play-state: paused;
+
+}
+
+
+
+
+
